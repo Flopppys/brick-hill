@@ -1,2 +1,2 @@
-# brick-hill-scripts
-A dedicated repository to my Brick Hill scripts.
+# brick-hill
+A dedicated repository to my Brick Hill related stuff.
