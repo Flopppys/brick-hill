@@ -7,7 +7,7 @@ const channel = "" // Channel where the bot sends the message
 const token = "" // Your bot token
 
 Game.command("report", (player, args) => {
-  if(args === "@everyone" || " " || "bldn") {
+  if(args.includes("@")) { // Avoid Pings
     player.prompt("Report was not sent!")
   } else {
     bot.channels.fetch(channel)
